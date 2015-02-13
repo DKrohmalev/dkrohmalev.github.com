@@ -38,10 +38,3 @@
 	font-style: normal;
 	font-weight: normal;
 }
-
-@font-face {
-	font-family: "BEBAS";
-	src: url("../fonts/BEBAS.ttf") format("truetype");
-	font-style: normal;
-	font-weight: normal;
-}

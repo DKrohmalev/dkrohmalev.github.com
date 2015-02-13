@@ -7,25 +7,7 @@
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
-	.header_nav {
-		display: none;
-	}
 
-	.header_nav li {
-		float: none;
-	}
-
-	.header_nav li a {
-		padding: 10px 25px;
-	}
-
-	.nav_button, .search_button {
-		display: block;
-	}
-
-	.header_form {
-		display: none;
-	}
 }
 
 /* Small Devices, Tablets */

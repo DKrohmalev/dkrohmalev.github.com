@@ -1,14 +1,14 @@
 $(document).ready(function() {
 
 
-	$(".nav_button").click(function(){
-		$(this).next().slideToggle();
-	});
 
-	$(".search_button").click(function(){
-		$(".h_header_form").slideToggle();
+	$(".topline_nav>li").hover(function() {
+		$(this).children("a").css("color", "#bfbfbf")
+		$(this).children("ul").stop().slideDown();
+	}, function () {
+		$(this).children("a").css("color", "#8c8989");
+		$(this).children("ul").stop().slideUp();
 	});
-
 
 	//Таймер обратного отсчета
 	//Документация: http://keith-wood.name/countdown.html
